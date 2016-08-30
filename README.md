@@ -34,6 +34,13 @@
   * webpack.optimize.OccurenceOrderPlugin
   * webpack.optimize.AggressiveMergingPlugin
 
+- Vendor
+  * separate vendor files used across entry points
+  * entry: {
+    vendor: [
+     'react', 'react-dom'
+    ]
+  }
 
 - Multiple entry points
   * use separate polyfill chunk to only load when needed in browser that doesn't support (does this work with SSR, should i think)
@@ -75,6 +82,9 @@
 - [Advanced Webpack Part 2 - Code Splitting](http://jonathancreamer.com/advanced-webpack-part-2-code-splitting/)
 - [Advanced Webpack Part 2 - Custom Notifier Plugin](http://jonathancreamer.com/advanced-webpack-part-3-creating-a-custom-notifier-plugin/)
 - [Webpack code splitting](http://jonathancreamer.com/webpack-code-splitting-with-es6-and-babel-6/)
+- [Automatic code splitting](https://medium.com/modus-create-front-end-development/automatic-code-splitting-for-react-router-w-es6-imports-a0abdaa491e9#.of0hkhrk3)
+- [dyanamic route loading - ryan florence](https://medium.com/@ryanflorence/welcome-to-future-of-web-application-delivery-9750b7564d9f#.bgkrp1wzj)
+- [webpack 2: tree shaking](https://medium.com/modus-create-front-end-development/webpack-2-tree-shaking-configuration-9f1de90f3233#.v40t86jhs)
 
 
 ## Videos
